@@ -10,7 +10,7 @@ library(readxl)
 
 
 #specifies path to my Excel file
-excel_file <- "C:/Users/Anna/Desktop/raw-data.xlsx"
+excel_file <- "C:/Users/Anna/Desktop/sample_data.xlsx"
 
 # Load data from the Excel file into a data frame
 sample_data <- read_excel(excel_file)
@@ -159,3 +159,4 @@ print(result1)
 print(result2)
 print(result3)
 print(result4)
+
