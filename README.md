@@ -1,4 +1,6 @@
 # Data-Analysis
-This repository contains my data analysis scripts, which were written in accordance with the statistical methods detailed in the Clinical &amp; Laboratory Standards Institute (CLSI) guidelines. 
+The precision analysis script processes data from the classic 20 x 2 x 2 study design and uses ANOVA to estimate repeatability and within‑laboratory precision at the 95% confidence level.
 
-The precision analysis script processes data for studies that adhere to the classic 20 x 2 x 2 experimental design. It employs an ANOVA-based methodology to evaluate both the repeatability and within-laboratory precision of a quantitative measurement procedure, providing insights within a 95% confidence interval.
+Method note: This implementation reproduces the appendix worked example from CLSI EP05 in base R to validate understanding. Package alternatives exist, but the goal here was to derive and verify the calculations directly rather than rely on a library.
+
+Source: Clinical and Laboratory Standards Institute (CLSI) EP05 — Evaluation of Precision of Quantitative Measurement Procedures; Approved Guideline (appendix worked example).
